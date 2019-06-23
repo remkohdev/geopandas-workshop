@@ -6,7 +6,19 @@ During the workshop we will analyse UK Crime Data with Pandas and GeoPandas in a
 
 ## Environment Setup
 
-In this workshop we will use IBM Watson Studio to run a notebook. For this you will need an IBM Cloud account to provision an instance of Watson Studio and Cloud Object Storage. If you do not have a Watson Studio service already provisioned, follow the steps outlined in these ![instructions](https://github.com/jrtorres/dsai-workshop-dataprocessing/blob/master/SetupWatsonStudio.md)
+In this workshop we will use IBM Watson Studio to run a notebook. For this you will need an IBM Cloud account to provision an instance of Watson Studio and Cloud Object Storage. If you do not have a Watson Studio service already provisioned, follow the steps outlined in these [instructions](https://github.com/jrtorres/dsai-workshop-dataprocessing/blob/master/SetupWatsonStudio.md)
+
+### Store this repository on your local computer.
+
+   If you have GIT on your machine, clone this repository locally. Open a terminal and run:
+
+   ```
+   $ git clone https://github.com/jrtorres/geopandas-workshop.git
+   ```
+
+   If you do NOT have GIT on your machine, you can just download the repository as a ZIP file. From the browser, select the "Download as Zip" option (_Note: The screenshot may show a different respository name, make sure you are downloading the correct repository_):
+
+   ![Download Repo](images/ss0.png)
 
 ## Load Notebook in Watson Studio
 
