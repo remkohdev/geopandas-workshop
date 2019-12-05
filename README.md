@@ -30,11 +30,12 @@ In this workshop we will use IBM Watson Studio to run a notebook. For this you w
 - Select an Object Storage from the drop-down menu. This is used to store the notebooks and data.
 - click `Create`.  
 
+
 * If no Storage is listed, add a new Data Storage,
 
 	![](../images/project-add-storage.png)
 
-  * On the right half of the window, click the `Add` link to define object storage for the project,
+  * Click the `Add` link to define object storage for the project,
   * A new window or tab will open to create Cloud Object Storage,
   * Select the `Lite` option,
   * Click `Create`,
@@ -52,7 +53,7 @@ To load the data into a notebook you need an Access Token.
 
 - Go the Settings tab at the top of the Project and scroll down to `Access tokens`.
 - Click `New token`
-- Give the new token a name, select `Editor` and click `Create`
+- Give the new token a name, e.g. `<username>-geopandas-token`, and select `Editor` and click `Create`
 
    ![Access Token](images/token.png)
 
@@ -65,7 +66,7 @@ As geopandas is not installed in the default Python environments you need to cre
 
    ![New Environment](images/new_env.png)
 
-- Give your new environment a name
+- Give your new environment a name, e.g. `Custom Python conda - environment`,
 - Keep the default, select the free hardware configuration `Free - 1 vCPU and 4 GB RAM` and click `Create`
 
    ![Customize Link](images/customize.png)
@@ -101,11 +102,14 @@ As geopandas is not installed in the default Python environments you need to cre
 
 ## 4. Load and run a notebook
 
+- Go back to your project dashboard via the breadcrumb navigation,
 - Add a new notebook. Click `Add to project` and choose `Notebook`:
 
    ![Add Notebook](images/newnotebook.png)
 
-- Choose new notebook `From URL`. Give your notebook a name and copy the URL `https://github.com/jrtorres/geopandas-workshop/blob/master/notebooks/geopandas-workshop.ipynb`
+- Choose new notebook `From URL`. 
+- Give your notebook a name, e.g. `<username>-geopandas-notebook`,
+- Copy the URL `https://github.com/jrtorres/geopandas-workshop/blob/master/notebooks/geopandas-workshop.ipynb`
 
    ![Notebook](images/notebookfromurl.png)
 
