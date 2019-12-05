@@ -30,6 +30,22 @@ In this workshop we will use IBM Watson Studio to run a notebook. For this you w
 - Select an Object Storage from the drop-down menu. This is used to store the notebooks and data.
 - click `Create`.  
 
+* If no Storage is listed, add a new Data Storage,
+
+	![](../images/project-add-storage.png)
+
+  * On the right half of the window, click the `Add` link to define object storage for the project,
+  * A new window or tab will open to create Cloud Object Storage,
+  * Select the `Lite` option,
+  * Click `Create`,
+  * Select the `default` for `Resource group`,
+  * For `Service name` enter a name, e.g. `<username>-cloud-object-storage-<random 2 characters>`,
+  * Click `Confirm`,
+
+* Click `Refresh`,
+  * Make sure an Object Storage is now selected,
+  * Click `Create`,
+
 ### 2. Create a Project Access token
 
 To load the data into a notebook you need an Access Token.
